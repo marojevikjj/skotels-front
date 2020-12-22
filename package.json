@@ -7,10 +7,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod &amp;&amp; npm install -g http-sktls" ,
+    "heroku-postbuild": "ng build --prod &amp;&amp; npm install -g http-sktls",
     "start": "http-sktls dist/angular-sktls index.html $PORT"
-  }
-},
+  },
   "private": true,
   "dependencies": {
     "@agm/core": "^3.0.0-beta.0",
@@ -56,3 +55,4 @@
     "npm": "6.14.6"
   }
 }
+
